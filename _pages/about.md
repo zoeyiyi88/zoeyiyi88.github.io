@@ -11,22 +11,46 @@ I study the impact of new technology on business, and use it to understand manag
 
 ### Education
 
-**University of Warwick**, Coventry, United Kingdom · *Oct. 2017*<br>
-**M.S. in E-Business Management**
-- **Thesis:** “Online Consumer Behaviour of C2C Market in China: Trust, Risk, and Transaction Dynamics.”
-- Focused on quantitative analytical frameworks, consumer risk perceptions, and transactional database analysis in emerging digital markets.
+<div class="institution-entry">
+  <img class="institution-entry__logo" src="/images/institutions/university-of-warwick.jpeg" alt="University of Warwick logo" loading="lazy">
+  <div class="institution-entry__content">
+    <p><strong>University of Warwick</strong>, Coventry, United Kingdom · <em>Oct. 2017</em><br>
+    <strong>M.S. in E-Business Management</strong></p>
+    <ul>
+      <li><strong>Thesis:</strong> “Online Consumer Behaviour of C2C Market in China: Trust, Risk, and Transaction Dynamics.”</li>
+      <li>Focused on quantitative analytical frameworks, consumer risk perceptions, and transactional database analysis in emerging digital markets.</li>
+    </ul>
+  </div>
+</div>
 
-**Oxford Brookes University**, Oxford, United Kingdom · *May 2016*<br>
-**B.A. (Hons) in International Business Management**
-- Capstone project on international market-entry strategy and comparative institutional analysis for a French manufacturing firm entering West African emerging markets.
+<div class="institution-entry">
+  <img class="institution-entry__logo" src="/images/institutions/oxford-brookes-university.jpeg" alt="Oxford Brookes University logo" loading="lazy">
+  <div class="institution-entry__content">
+    <p><strong>Oxford Brookes University</strong>, Oxford, United Kingdom · <em>May 2016</em><br>
+    <strong>B.A. (Hons) in International Business Management</strong></p>
+    <ul>
+      <li>Capstone project on international market-entry strategy and comparative institutional analysis for a French manufacturing firm entering West African emerging markets.</li>
+    </ul>
+  </div>
+</div>
 
 ### Experience
 
-**Research and Teaching Associate** — CUHK-Shenzhen, Department of Management · *Jan 2018 – Jan 2022*<br>
-Assembled multi-year, firm-level panel datasets from CSMAR and Wind, and operationalised corporate nonmarket strategy measures for a longitudinal programme on board-level political embeddedness, financial disclosure quality, and risk transparency.
+<div class="institution-entry">
+  <img class="institution-entry__logo" src="/images/institutions/cuhk-shenzhen.jpeg" alt="The Chinese University of Hong Kong, Shenzhen logo" loading="lazy">
+  <div class="institution-entry__content">
+    <p><strong>Research and Teaching Associate</strong> — CUHK-Shenzhen, Department of Management · <em>Jan 2018 – Jan 2022</em><br>
+    Assembled multi-year, firm-level panel datasets from CSMAR and Wind, and operationalised corporate nonmarket strategy measures for a longitudinal programme on board-level political embeddedness, financial disclosure quality, and risk transparency.</p>
+  </div>
+</div>
 
-**Research Associate**, National Social Science Foundation Key Project — Shenzhen University · *Apr 2022 – Dec 2024*<br>
-Conducted comparative institutional fieldwork across Belt and Road recipient countries, and built a multi-country institutional database translating heterogeneous regulatory and documentary sources into structured research variables.
+<div class="institution-entry">
+  <img class="institution-entry__logo" src="/images/institutions/shenzhen-university.jpeg" alt="Shenzhen University logo" loading="lazy">
+  <div class="institution-entry__content">
+    <p><strong>Research Associate</strong>, National Social Science Foundation Key Project — Shenzhen University · <em>Apr 2022 – Dec 2024</em><br>
+    Conducted comparative institutional fieldwork across Belt and Road recipient countries, and built a multi-country institutional database translating heterogeneous regulatory and documentary sources into structured research variables.</p>
+  </div>
+</div>
 
 **Business Development and Corporate Governance Analyst** — Shenzhen Lesto Ltd. · *Feb 2025 – Present*<br>
 Field research on internal accountability mechanisms and risk profiles of corporations undergoing AI-driven strategic transformation, and policy recommendations on the alignment between board structure and regulatory compliance.
