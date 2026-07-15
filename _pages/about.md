@@ -9,15 +9,16 @@ redirect_from:
 
 I study the impact of new technology on business, and use it to understand management and economic mechanisms. Always happy to connect!
 
-## Background
-
 ### Education
 
-**MSc, E-Business Management** — University of Warwick · *Oct 2017*<br>
-Thesis on online consumer behaviour in China's C2C market: trust, risk, and transaction dynamics.
+**University of Warwick**, Coventry, United Kingdom · *Oct. 2017*<br>
+**M.S. in E-Business Management**
+- **Thesis:** “Online Consumer Behaviour of C2C Market in China: Trust, Risk, and Transaction Dynamics.”
+- Focused on quantitative analytical frameworks, consumer risk perceptions, and transactional database analysis in emerging digital markets.
 
-**BA (Hons), International Business Management** — Oxford Brookes University · *May 2016*<br>
-Capstone on international market-entry strategy and comparative institutional analysis for a French manufacturing firm entering West African markets.
+**Oxford Brookes University**, Oxford, United Kingdom · *May 2016*<br>
+**B.A. (Hons) in International Business Management**
+- Capstone project on international market-entry strategy and comparative institutional analysis for a French manufacturing firm entering West African emerging markets.
 
 ### Experience
 
