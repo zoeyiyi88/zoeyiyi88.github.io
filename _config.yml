@@ -22,12 +22,12 @@ repository               : "zoeyiyi88/zoeyiyi88.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yunyi Qi"
   pronouns         : # example: "she/her"  
   bio              : "Corporate governance, institutional analysis, and how firms stay accountable when decisions move to machines."
-  location         : "Shenzhen, China"
-  employer         : "Shenzhen Lesto Ltd."
+  location         :
+  employer         : "University of Warwick"
   uri              : # URL
   email            : "zoeyiyi11@hotmail.com"
 

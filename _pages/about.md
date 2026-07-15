@@ -17,13 +17,24 @@ I am currently seeking doctoral study in management and related fields.
 
 ## Background
 
-| | |
-|---|---|
-| **University of Warwick** | MSc, E-Business Management |
-| **Oxford Brookes University** | BA (Hons), International Business Management |
-| **CUHK-Shenzhen** | Research and Teaching Associate, Department of Management |
-| **Shenzhen University** | Research Associate, National Social Science Foundation Key Project |
-| **Shenzhen Lesto Ltd.** | Business Development and Corporate Governance Analyst |
+### Education
+
+**MSc, E-Business Management** — University of Warwick · *Oct 2017*<br>
+Thesis on online consumer behaviour in China's C2C market: trust, risk, and transaction dynamics.
+
+**BA (Hons), International Business Management** — Oxford Brookes University · *May 2016*<br>
+Capstone on international market-entry strategy and comparative institutional analysis for a French manufacturing firm entering West African markets.
+
+### Experience
+
+**Research and Teaching Associate** — CUHK-Shenzhen, Department of Management · *Jan 2018 – Jan 2022*<br>
+Assembled multi-year, firm-level panel datasets from CSMAR and Wind, and operationalised corporate nonmarket strategy measures for a longitudinal programme on board-level political embeddedness, financial disclosure quality, and risk transparency.
+
+**Research Associate**, National Social Science Foundation Key Project — Shenzhen University · *Apr 2022 – Dec 2024*<br>
+Conducted comparative institutional fieldwork across Belt and Road recipient countries, and built a multi-country institutional database translating heterogeneous regulatory and documentary sources into structured research variables.
+
+**Business Development and Corporate Governance Analyst** — Shenzhen Lesto Ltd. · *Feb 2025 – Present*<br>
+Field research on internal accountability mechanisms and risk profiles of corporations undergoing AI-driven strategic transformation, and policy recommendations on the alignment between board structure and regulatory compliance.
 
 ## Method
 
