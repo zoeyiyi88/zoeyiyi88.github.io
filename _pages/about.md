@@ -1,19 +1,13 @@
 ---
 permalink: /
-title: "How organisations behave under institutional constraint — and what changes when they begin to think with machines."
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-My training is in international business and management. My research experience spans corporate governance and nonmarket strategy, comparative institutional analysis across national contexts, and applied governance work inside industry.
-
-The thread running through it is empirical rather than topical: **building credible, comparable measures from institutional and documentary material that was never produced for analysis**, and using them to examine how firms respond to the environments that constrain them.
-
-I now work inside a company undergoing exactly the transition I find most consequential. As firms delegate significant decisions to algorithmic systems, the structures that govern them — boards, disclosure regimes, lines of accountability — remain calibrated to decisions made by people. That gap is where business, economics, and artificial intelligence stop being separate subjects, and it is the direction I intend to take into doctoral research.
-
-I am currently seeking doctoral study in management and related fields.
+I study the impact of new technology on business, and use it to understand management and economic mechanisms. Always happy to connect!
 
 ## Background
 
