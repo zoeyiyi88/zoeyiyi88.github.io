@@ -1,1 +1,12 @@
-main: [{title: "Research", url: "/research/"}, {title: "Teaching", url: "/teaching/"}, {title: "CV", url: "/cv/"}]
+# Site navigation — Yunyi Qi
+# Publications, Talks, Portfolio and Blog have been removed.
+
+main:
+  - title: "Research"
+    url: /research/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/
