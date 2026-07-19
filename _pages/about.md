@@ -86,13 +86,14 @@ redirect_from:
 
     <article class="profile-entry profile-entry--plain">
       <h3 class="profile-entry__title">Shenzhen Leshitong Co., Ltd.</h3>
-      <p class="profile-entry__role">Investment Analyst, Investment Analysis Department</p>
+      <p class="profile-entry__role">Business Development Manager</p>
       <p class="profile-entry__meta">Aug. 2025 – Present</p>
       <ul>
-        <li>Conduct in-depth research on the London real estate market, including market trends, competitor analysis, investment opportunities, and asset-level risk assessment.</li>
-        <li>Independently prepare investment analysis reports, investment recommendations, due diligence materials, and financial evaluations to support management decision-making.</li>
-        <li>Apply quantitative analysis to evaluate property investment opportunities and support the development of asset management strategies.</li>
-        <li>Collaborate with sales and finance teams to assess investment returns, refine financial forecasts, and adjust investment strategies in response to changing market conditions.</li>
+        <li>Monitor developments in electronics manufacturing, semiconductor localization, and AI hardware; contribute to product-line planning that has expanded the company’s portfolio beyond SMT red adhesive into solder paste and photoresist-packaging solutions.</li>
+        <li>Conduct market research across SMT red adhesive, solder paste, and photoresist-packaging products, tracking industry developments, competing offerings, pricing, and customer requirements to inform product positioning and business development.</li>
+        <li>Coordinate new-product market introduction, including product-document preparation, packaging-specification alignment, supplier liaison, sample preparation, and follow-up on customer testing feedback.</li>
+        <li>Develop relationships with electronics manufacturers, materials suppliers, distributors, and other industry customers; lead product presentations, needs discovery, commercial follow-up, sample testing, quotations, and partnership discussions.</li>
+        <li>Translate customer feedback on material performance, packaging formats, specifications, and delivery requirements into coordinated adjustments with suppliers and internal teams, improving product fit with customers’ application scenarios.</li>
       </ul>
     </article>
   </section>

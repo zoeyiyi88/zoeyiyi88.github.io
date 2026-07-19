@@ -38,12 +38,14 @@ Academic Research Experience
   * Developed item-level document coding protocols and conducted inter-coder reliability assessment using Cohen's κ on bilingual policy, legal, and archival texts.
   * Coordinated cross-border project operations, compiled annual academic expenditure audits, and managed communications with government funding agencies.
 
-Applied Governance and Field Experience
+Professional Experience
 ======
-* **Business Development and Corporate Governance Analyst** — *Shenzhen Lesto Ltd., Shenzhen* (Feb 2025 – Present)
-  * Conduct field-based research on internal accountability mechanisms and risk profiles of corporations undergoing AI-driven strategic transformation.
-  * Draft internal policy recommendations on the alignment between evolving board structures and regulatory compliance requirements in emerging high-tech sectors.
-  * Mediate strategic communications among enterprise founders, executive management, and external legal counsel to improve organisational governance processes.
+* **Business Development Manager** — *Shenzhen Leshitong Co., Ltd., Shenzhen, China* (Aug 2025 – Present)
+  * Monitor developments in electronics manufacturing, semiconductor localization, and AI hardware; contribute to product-line planning that has expanded the company’s portfolio beyond SMT red adhesive into solder paste and photoresist-packaging solutions.
+  * Conduct market research across SMT red adhesive, solder paste, and photoresist-packaging products, tracking industry developments, competing offerings, pricing, and customer requirements to inform product positioning and business development.
+  * Coordinate new-product market introduction, including product-document preparation, packaging-specification alignment, supplier liaison, sample preparation, and follow-up on customer testing feedback.
+  * Develop relationships with electronics manufacturers, materials suppliers, distributors, and other industry customers; lead product presentations, needs discovery, commercial follow-up, sample testing, quotations, and partnership discussions.
+  * Translate customer feedback on material performance, packaging formats, specifications, and delivery requirements into coordinated adjustments with suppliers and internal teams, improving product fit with customers’ application scenarios.
 
 Teaching
 ======
