@@ -1,5 +1,29 @@
 /* Professional profile system inspired by Magic UI's restrained hero recipe. */
 
+.page__title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.page__content .profile-intro {
+  position: relative;
+  max-width: 44rem;
+  margin: 0 0 4.25rem;
+  padding: 1.35rem 1.5rem;
+  color: var(--global-text-color);
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  line-height: 1.75;
+  background:
+    linear-gradient(135deg, rgba(116, 47, 69, 0.07), transparent 62%),
+    var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-link-color);
+  border-radius: 0.8rem;
+  box-shadow: 0 12px 36px rgba(62, 42, 48, 0.06);
+}
+
 .profile-hero,
 .cv-hero {
   position: relative;
@@ -449,6 +473,11 @@
 }
 
 @media (max-width: 48rem) {
+  .page__content .profile-intro {
+    margin-bottom: 3.25rem;
+    padding: 1.1rem 1.2rem;
+  }
+
   .profile-hero,
   .cv-hero {
     margin-bottom: 3.25rem;
