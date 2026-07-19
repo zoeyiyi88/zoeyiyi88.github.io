@@ -12,7 +12,7 @@ site_theme               : "qi"
 title                    : "Yunyi Qi"
 title_separator          : "-"
 name                     : &name "Yunyi Qi"
-description              : &description "Management researcher working on corporate governance, comparative institutional analysis, and organisational accountability under AI-driven transformation."
+description              : &description "Yunyi Qi studies how new technology reshapes business, management, and economic mechanisms."
 url                      : https://zoeyiyi88.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zoeyiyi88/zoeyiyi88.github.io"
@@ -30,6 +30,7 @@ author:
   employer         : "University of Warwick"
   uri              : # URL
   email            : "zoeyiyi11@hotmail.com"
+  cv               : "/files/Yunyi_Qi_CV.pdf"
 
   # Academic websites
   academia         : # URL

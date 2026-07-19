@@ -1,17 +1,33 @@
 ---
-layout: archive
+layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+hide_title: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-<!-- Upload your CV PDF to the /files/ folder and uncomment the line below.
-[Download CV (PDF)]({{ base_path }}/files/Yunyi_Qi_CV.pdf)
--->
+<section class="cv-hero" aria-labelledby="cv-hero-title">
+  <p class="profile-eyebrow">Curriculum Vitae</p>
+  <h1 id="cv-hero-title">Academic and professional profile</h1>
+  <p>Research experience in management and applied economics, teaching in international business and strategy, and professional work in technology-focused business development.</p>
+  <div class="profile-actions">
+    <a class="profile-button profile-button--primary" href="{{ base_path }}/files/Yunyi_Qi_CV.pdf" target="_blank" rel="noopener">
+      <i class="fas fa-download" aria-hidden="true"></i>
+      Download CV (PDF)
+    </a>
+    <a class="profile-button profile-button--secondary" href="{{ base_path }}/files/Yunyi_Qi_CV.pdf" target="_blank" rel="noopener">
+      Open in browser
+      <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+  <p class="cv-hero__meta">Updated July 2026 <span aria-hidden="true">·</span> 2 pages</p>
+</section>
+
+<div class="cv-page" markdown="1">
 
 Education
 ======
@@ -61,3 +77,5 @@ Methodological Expertise
 * **Data architecture** — CSMAR; Wind Financial Terminal; CNINFO; corporate annual reports; national institutional and policy registries; structured web scraping and automated extraction with version-controlled pipelines.
 * **Textual analysis** — Textual parsing; dynamic Chinese-language keyword dictionary construction validated against manual coding; bilingual policy, legal, and archival text analysis.
 * **Languages** — Mandarin Chinese (native); English (professional working proficiency).
+
+</div>
