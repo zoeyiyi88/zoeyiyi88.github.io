@@ -1,75 +1,268 @@
-.profile-intro {
+/* Professional profile system inspired by Magic UI's restrained hero recipe. */
+
+.profile-hero,
+.cv-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  max-width: 48rem;
+  margin: 0 0 4.5rem;
+  padding: clamp(2rem, 5vw, 3.5rem);
+  background:
+    linear-gradient(135deg, rgba(116, 47, 69, 0.08), transparent 54%),
+    var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 1.25rem;
+  box-shadow: 0 24px 70px rgba(62, 42, 48, 0.09);
+  animation: profile-reveal 0.65s ease-out both;
+}
+
+.profile-hero::before,
+.cv-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  opacity: 0.38;
+  background-image:
+    linear-gradient(rgba(116, 47, 69, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(116, 47, 69, 0.09) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: linear-gradient(to bottom right, #000, transparent 72%);
+}
+
+.profile-hero__glow {
+  position: absolute;
+  z-index: -1;
+  top: -7rem;
+  right: -6rem;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  background: rgba(116, 47, 69, 0.16);
+  filter: blur(45px);
+}
+
+.page__content .profile-eyebrow {
+  margin: 0 0 0.9rem;
+  color: var(--global-link-color);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.page__content .profile-hero h1,
+.page__content .cv-hero h1 {
   max-width: 42rem;
-  margin: 0 0 3.25rem;
-  font-size: 1.06rem;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.05rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.06;
+}
+
+.page__content .profile-hero__lead,
+.page__content .cv-hero > p:not(.profile-eyebrow):not(.cv-hero__meta) {
+  max-width: 39rem;
+  margin: 1.25rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: clamp(1rem, 2vw, 1.13rem);
   line-height: 1.75;
 }
 
-.profile-home {
-  max-width: 46rem;
+.profile-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.5rem 0 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.page__content .profile-interests li {
+  margin: 0;
+  padding: 0.46rem 0.72rem;
+  color: var(--global-text-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  line-height: 1;
+  background: color-mix(in srgb, var(--global-bg-color) 84%, transparent);
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.8rem;
+}
+
+.page__content a.profile-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 2.75rem;
+  padding: 0.72rem 1.05rem;
+  overflow: hidden;
+  color: var(--global-text-color);
+  font-size: 0.86rem;
+  font-weight: 750;
+  line-height: 1;
+  text-decoration: none;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.7rem;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.page__content a.profile-button:hover,
+.page__content a.profile-button:focus-visible {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(44, 27, 33, 0.13);
+}
+
+.page__content a.profile-button:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--global-link-color) 28%, transparent);
+  outline-offset: 3px;
+}
+
+.page__content a.profile-button--primary {
+  color: #fff;
+  background: var(--global-link-color);
+  border-color: var(--global-link-color);
+}
+
+.page__content a.profile-button--primary::after {
+  content: "";
+  position: absolute;
+  top: -120%;
+  left: -45%;
+  width: 35%;
+  height: 330%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transform: rotate(20deg);
+  animation: profile-shine 6s ease-in-out infinite;
+}
+
+.page__content a.profile-button--secondary {
+  background: color-mix(in srgb, var(--global-bg-color) 76%, transparent);
+}
+
+.page__content .profile-hero__note,
+.page__content .cv-hero__meta {
+  margin: 1.1rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.profile-home,
+.cv-page {
+  max-width: 48rem;
   font-size: 0.96rem;
   line-height: 1.72;
 }
 
 .profile-section {
-  margin-top: 3.5rem;
+  margin-top: 4.5rem;
 }
 
 .profile-section:first-child {
   margin-top: 0;
 }
 
-.page__content .profile-section__title {
-  margin: 0 0 1.75rem;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid var(--global-border-color);
-  font-size: 1.42rem;
+.page__content .profile-section__title,
+.cv-page h1,
+.cv-page h2 {
+  position: relative;
+  margin: 0 0 1.6rem;
+  padding: 0 0 0.75rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.025em;
   line-height: 1.25;
+  border-bottom: 1px solid var(--global-border-color);
 }
 
-.institution-entry {
+.page__content .profile-section__title::after,
+.cv-page h1::after,
+.cv-page h2::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 3.5rem;
+  height: 2px;
+  background: var(--global-link-color);
+}
+
+.institution-entry,
+.profile-entry--plain {
+  position: relative;
   display: grid;
-  grid-template-columns: 4rem minmax(0, 1fr);
-  gap: 1.15rem;
+  grid-template-columns: 4.4rem minmax(0, 1fr);
+  gap: 1.25rem;
   align-items: start;
+  margin: 0;
+  padding: 1.45rem;
+  background: color-mix(in srgb, var(--global-code-background-color) 92%, transparent);
+  border: 1px solid var(--global-border-color);
+  border-radius: 1rem;
+  box-shadow: 0 8px 30px rgba(62, 42, 48, 0.045);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
-.profile-entry {
-  margin: 0;
+.institution-entry:hover,
+.profile-entry--plain:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--global-link-color) 34%, var(--global-border-color));
+  box-shadow: 0 18px 45px rgba(62, 42, 48, 0.08);
+}
+
+.profile-entry--plain {
+  display: block;
+  max-width: none;
 }
 
 .profile-entry + .profile-entry {
-  margin-top: 2.5rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--global-border-color);
+  margin-top: 1.15rem;
 }
 
 .institution-entry__logo {
   display: block;
-  width: 4rem;
-  height: 4rem;
+  width: 4.4rem;
+  height: 4.4rem;
   box-sizing: border-box;
   object-fit: contain;
-  padding: 0.25rem;
+  padding: 0.35rem;
   background: #fff;
   border: 1px solid var(--global-border-color);
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 5px 16px rgba(38, 25, 29, 0.07);
 }
 
 .page__content .profile-entry__title {
-  margin: 0 0 0.35rem;
-  font-size: 1.14rem;
+  margin: 0 0 0.32rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.18rem;
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   line-height: 1.35;
 }
 
 .page__content .profile-entry__role {
   margin: 0.2rem 0 0.25rem;
-  font-size: 1rem;
-  font-weight: 600;
+  color: var(--global-link-color);
+  font-size: 0.98rem;
+  font-weight: 750;
   line-height: 1.5;
 }
 
@@ -79,83 +272,244 @@
   gap: 0.2rem 0.45rem;
   margin: 0 0 1rem;
   color: var(--global-text-color-light);
-  font-size: 0.91rem;
+  font-size: 0.85rem;
   line-height: 1.5;
 }
 
 .page__content .profile-entry__project {
   margin: 0.7rem 0 0.35rem;
-  line-height: 1.62;
+  padding: 0.72rem 0.85rem;
+  line-height: 1.58;
+  background: color-mix(in srgb, var(--global-link-color) 6%, transparent);
+  border-left: 2px solid var(--global-link-color);
+  border-radius: 0 0.45rem 0.45rem 0;
 }
 
-.page__content .profile-entry ul,
-.page__content .profile-tools {
+.page__content .profile-entry ul {
   margin: 0.9rem 0 0;
-  padding-left: 1.25rem;
+  padding-left: 1.15rem;
 }
 
-.page__content .profile-entry li,
-.page__content .profile-tools li {
+.page__content .profile-entry li {
   padding-left: 0.15rem;
-  line-height: 1.72;
+  line-height: 1.7;
 }
 
-.page__content .profile-entry li + li,
-.page__content .profile-tools li + li {
-  margin-top: 0.65rem;
+.page__content .profile-entry li::marker,
+.cv-page li::marker {
+  color: var(--global-link-color);
+}
+
+.page__content .profile-entry li + li {
+  margin-top: 0.6rem;
 }
 
 .page__content .profile-entry__subheading {
-  margin: 1.75rem 0 0.65rem;
-  font-size: 1rem;
-  font-weight: 700;
+  margin: 1.65rem 0 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   line-height: 1.4;
+  text-transform: uppercase;
 }
 
 .page__content .profile-publications {
   margin-top: 0;
 }
 
-.profile-entry--plain {
-  max-width: 42rem;
+.page__content .profile-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.page__content .profile-tools {
-  max-width: 42rem;
+.page__content .profile-tools li {
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.58;
+  background: color-mix(in srgb, var(--global-code-background-color) 92%, transparent);
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.75rem;
+}
+
+.cv-hero {
+  margin-bottom: 3.25rem;
+}
+
+.cv-page {
+  padding-bottom: 1rem;
+}
+
+.cv-page h1,
+.cv-page h2 {
+  margin-top: 3.25rem;
+}
+
+.cv-page > h1:first-child,
+.cv-page > h2:first-child {
   margin-top: 0;
 }
 
-@media (max-width: 37.5rem) {
-  .profile-intro {
-    margin-bottom: 2.75rem;
-    font-size: 1rem;
-  }
+.cv-page > ul {
+  margin: 0 0 1rem;
+  padding: 1.25rem 1.4rem 1.25rem 2.6rem;
+  background: color-mix(in srgb, var(--global-code-background-color) 92%, transparent);
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.9rem;
+}
 
-  .profile-home {
-    font-size: 0.98rem;
+.cv-page li {
+  line-height: 1.68;
+}
+
+.cv-page li + li {
+  margin-top: 0.65rem;
+}
+
+/* Global polish kept here so it loads after the base Academic Pages styles. */
+.masthead {
+  background: color-mix(in srgb, var(--global-bg-color) 88%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+.masthead__menu-item a {
+  font-size: 0.84rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.masthead__menu-item--lg a {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.masthead__menu-item.selected a {
+  color: var(--global-link-color);
+  border-bottom-color: var(--global-link-color);
+}
+
+.sidebar .author__avatar img {
+  padding: 0;
+  border: 4px solid var(--global-code-background-color);
+  box-shadow: 0 0 0 1px var(--global-border-color), 0 12px 35px rgba(62, 42, 48, 0.13);
+}
+
+.sidebar .author__name {
+  margin-top: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.28rem;
+  letter-spacing: -0.02em;
+}
+
+.sidebar .author__bio {
+  max-width: 14rem;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.author__urls a {
+  border-radius: 0.35rem;
+}
+
+.author__urls a:hover {
+  color: var(--global-link-color);
+  background: color-mix(in srgb, var(--global-link-color) 7%, transparent);
+}
+
+@keyframes profile-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes profile-shine {
+  0%, 68% {
+    left: -45%;
+  }
+  82%, 100% {
+    left: 125%;
+  }
+}
+
+@media (max-width: 48rem) {
+  .profile-hero,
+  .cv-hero {
+    margin-bottom: 3.25rem;
+    border-radius: 1rem;
   }
 
   .profile-section {
-    margin-top: 3rem;
-  }
-
-  .page__content .profile-section__title {
-    margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    margin-top: 3.5rem;
   }
 
   .institution-entry {
-    grid-template-columns: 3.125rem minmax(0, 1fr);
-    gap: 0.85rem;
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    gap: 0.95rem;
+    padding: 1.1rem;
   }
 
   .institution-entry__logo {
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
-  .profile-entry + .profile-entry {
-    margin-top: 2.1rem;
-    padding-top: 2.1rem;
+  .page__content .profile-tools {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  .profile-hero,
+  .cv-hero {
+    padding: 1.55rem;
+  }
+
+  .profile-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .page__content a.profile-button {
+    width: 100%;
+  }
+
+  .institution-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .institution-entry__logo {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-hero,
+  .cv-hero,
+  .page__content a.profile-button--primary::after {
+    animation: none;
+  }
+
+  .institution-entry,
+  .profile-entry--plain,
+  .page__content a.profile-button {
+    transition: none;
   }
 }

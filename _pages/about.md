@@ -2,12 +2,34 @@
 permalink: /
 title: "About Me"
 author_profile: true
+hide_title: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<p class="profile-intro">I study the impact of new technology on business, and use it to understand management and economic mechanisms. Always happy to connect!</p>
+<section class="profile-hero" aria-labelledby="profile-hero-title">
+  <div class="profile-hero__glow" aria-hidden="true"></div>
+  <p class="profile-eyebrow">Research profile</p>
+  <h1 id="profile-hero-title">Technology, institutions, and business in transition.</h1>
+  <p class="profile-hero__lead">I study the impact of new technology on business, and use it to understand management and economic mechanisms.</p>
+  <ul class="profile-interests" aria-label="Research interests">
+    <li>AI &amp; Management</li>
+    <li>International Business</li>
+    <li>Applied Economics</li>
+  </ul>
+  <div class="profile-actions">
+    <a class="profile-button profile-button--primary" href="/files/Yunyi_Qi_CV.pdf" target="_blank" rel="noopener">
+      <i class="fas fa-download" aria-hidden="true"></i>
+      Download CV
+    </a>
+    <a class="profile-button profile-button--secondary" href="/research/">
+      View research
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+  <p class="profile-hero__note">Always happy to connect and exchange ideas.</p>
+</section>
 
 <div class="profile-home">
   <section class="profile-section" aria-labelledby="education-heading">
